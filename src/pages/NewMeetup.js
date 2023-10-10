@@ -1,4 +1,11 @@
+import NewMeetupform from "../components/meetups/NewMeetupForm";
+
 function NewMeetupPage(params) {
-  return <div>New Meetup Page</div>;
+  return (
+    <section>
+      <h1>Add New Meetup</h1>
+      <NewMeetupform />
+    </section>
+  );
 }
 export default NewMeetupPage;
