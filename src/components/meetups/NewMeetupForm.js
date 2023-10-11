@@ -27,6 +27,8 @@ function NewMeetupform() {
       </form>
     </Card>
   );
+
+  // </Card>
 }
 
 export default NewMeetupform;
